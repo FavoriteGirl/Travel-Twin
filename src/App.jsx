@@ -4,6 +4,7 @@ import SignIn from "./Pages/SignIn"
 import SignUp from "./Pages/SignUp"
 import Profile from "./Pages/Profile"
 import ForgotPassword from "./Pages/ForgotPassword/compon/ForgotPassword"
+import CreateTrip from "./Pages/CreateTrip"
 
 
 
@@ -24,6 +25,10 @@ function App() {
   {
     path: "profile",
     element: <Profile/>
+  },
+  {
+    path: "create-trip",
+    element: <CreateTrip/>
   },
   {
     path: "forgotpassword",
