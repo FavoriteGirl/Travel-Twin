@@ -46,13 +46,13 @@ function SignIn() {
         </form>
         <p className="text-sm text-gray-600 mt-2">
           
-            <Link to="/forgotpassword" className="text-orange-500">
+            <Link to="/forgotpassword" className="text-orange-700">
               Forgot Password?
             </Link>
          
         </p>
         <p className="text-sm text-gray-600 mt-4">
-          Don't have an account? <Link to="/signup" className="text-orange-500">Sign Up</Link>
+          Don't have an account? <Link to="/signup" className="text-orange-700">Sign Up</Link>
         </p>
       </div>
      </div>
